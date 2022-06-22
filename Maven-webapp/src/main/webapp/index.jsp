@@ -27,6 +27,9 @@ Maven Installation
 
 </p>
 
-<body>successfully deployed to UAT server</body>
+<body>successfully deployed to UAT server
+<h1>added .gitignore</h1>
+
+</body>
 </body>
 </html>
