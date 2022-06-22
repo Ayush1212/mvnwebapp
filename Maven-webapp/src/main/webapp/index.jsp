@@ -29,6 +29,7 @@ Maven Installation
 
 <body>successfully deployed to UAT server
 <h1>added .gitignore</h1>
+<p>git ignore worked successfully</p>
 
 </body>
 </body>
