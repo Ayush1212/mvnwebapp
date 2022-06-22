@@ -23,6 +23,10 @@ Maven Installation
 
 -> JRE contains platform/environment which is used to run java programs
 
+
+
 </p>
+
+<body>successfully deployed to UAT server</body>
 </body>
 </html>
