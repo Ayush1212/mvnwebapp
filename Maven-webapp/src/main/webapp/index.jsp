@@ -8,12 +8,20 @@
 <p>
 	1) Go to Tomcat server folder and configure below users in "tomcat-users.xml" file (it will be available in tomcat -erver conf folder)
 
-<role rolename="manager-gui" />
-<role rolename="manager-script" />
-<role rolename="admin-gui" />
+Maven Installation
+++++++++++++++++++
 
-<user username="tomcat" password="tomact" roles="manager-gui" />
-<user username="admin" password="admin" roles="manager-gui,manager-script,admin-gui"/>
+1) Download and install Java software
+
+-> When we install java we will below 2 things
+
+		a) JDK (Java Development Kit) 
+
+		b) JRE (Java Runtime Environment)
+
+-> JDK contains set of tools to develop java programs
+
+-> JRE contains platform/environment which is used to run java programs
 
 </p>
 </body>
