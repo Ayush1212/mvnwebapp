@@ -36,6 +36,7 @@ Maven Installation
 	
 	<body>
 		<h1> creating pipeline </h1>
+		<h2> pipeline successful </h2>
 	
 	</body>
 </html>
