@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>I love you babu</h1>
+<h1>Testing of jenkins deploying new war file to the server</h1>
 
 	
 	</body>
