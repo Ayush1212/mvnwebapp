@@ -1,21 +1,18 @@
-pipeline
-{
+pipeline{
     agent any
-    stages
-    {
-        stage('welcome') {
+    stages{
+        stage ('welcome'){
             steps{
                 echo 'hello'
             }
         }
 
 
-	      stage('getcode') {
-             step{
-			   git branch: 'main' ,
-		          url: 'https://github.com/Ayush1212/mvnwebapp.git'
-			}
-          }
-        
+        stage ('GetCode'){
+            steps{
+                git branch: 'main',
+                url:'https://github.com/Ayush1212/mvnwebapp.git'
+            }
+        }
     }
 }
