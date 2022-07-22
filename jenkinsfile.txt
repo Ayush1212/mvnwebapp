@@ -4,11 +4,11 @@ pipeline
     stages
     {
         stage('welcome') {
-            step{
+            steps{
                 echo ('hello')
             }
 	stage('getcode'){
-		step{
+		steps{
 			git branch: 'main' ,
 		url: 'https://github.com/Ayush1212/mvnwebapp.git'
 			}
