@@ -14,5 +14,12 @@ pipeline{
                 url:'https://github.com/Ayush1212/mvnwebapp.git'
             }
         }
+
+	stage ('build'){
+		steps{
+		mvn clean package
+		}
+
+	}
     }
 }
